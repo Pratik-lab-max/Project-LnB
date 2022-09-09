@@ -1,0 +1,17 @@
+.button{
+    text-align: center;
+    padding: 50px;
+    font-size: 100%;
+}
+
+#form{
+    text-align: center;
+    display: block;
+}
+
+select{
+    
+    font-size: 100%;
+  
+    text-align: center;
+}

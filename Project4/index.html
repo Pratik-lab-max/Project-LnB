@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="button">
+        <button onclick="myfunction1()">-</button>      
+        <span id="box" class="text"> 16 </span> 
+        <button onclick="myfunction2()">+</button>
+    </div>
+    <form id="form" onclick="fontfamily()">
+        <label id="lbl">Select Your Font-Family </label>
+        <select id="family">
+            <option value = "Arial">Arial</option>
+            <option value = "Geneva">Geneva</option>
+            <option value = "Helvetica">Helvetica</option>
+            <option value = "Tubular">Tubular</option>
+            <option value = "Unicorn">Unicorn</option>
+        </select>
+    </form>
+    <div>
+        <p id="paragraph" style="font-size: 1.7rem;
+            font-family: 'Arial';
+            text-align: center;">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Placeat provident vel omnis possimus cum odio aliquid velit tempore repudiandae. 
+            Enim quam corrupti vel, eligendi ratione error quasi aut quis necessitatibus.
+        </p>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
